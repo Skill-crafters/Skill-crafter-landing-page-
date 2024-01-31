@@ -1,3 +1,3 @@
 # academic-pal
 <br>
-click here to visit website hari-hara7.github.io/academic-pal/
+click here to visit website https://hari-hara7.github.io/academic-pal/
