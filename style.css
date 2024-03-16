@@ -30,7 +30,7 @@ h1 {
 }
 
 p {
-    color: #ffffff;
+    color: #868686;
     font-size: 1.4em;
     line-height: 1.6;
     margin-bottom: 30px;
@@ -41,13 +41,13 @@ p {
     padding: 15px 30px;
     font-size: 1.2em;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #ff0000;
+    color: #000000;
+    background-color: #ffffff;
     border-radius: 8px;
     transition: background-color 0.3s ease;
     margin-top: 20px;
     display: inline-block;
-    border: 2px solid #ff0000;
+    border: 2px solid #ffffff;
     transition: all 0.3s ease;
 }
 
