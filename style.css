@@ -11,7 +11,22 @@ header {
     text-align: center;
     padding: 2em 0;
 }
+header {
+    background-color: #000000;
+    text-align: center;
+    padding: 1em 0;
+}
 
+header img {
+    width: auto; /* Allow the width to adjust based on the height */
+    height: 10em; /* Set the height equal to the font size of the text */
+    vertical-align: middle; /* Align the logo vertically with the text */
+    margin-right: 0.5em; /* Add some space between the logo and the text */
+}
+
+header h1 {
+    display: inline; /* Make the h1 element display inline */
+}
 section {
     max-width: 800px;
     margin: 40px auto;
