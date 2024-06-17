@@ -1,0 +1,16 @@
+{
+    "name": "Skill Crafters",
+    "short_name": "SkillCrafters",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "A platform to learn web development, DSA, and UI/UX design.",
+    "icons": [
+      {
+        "src": "Designer (72).jpeg",
+        "sizes": "72x72",
+        "type": "image/jpeg"
+      }
+    ]
+  }
+  

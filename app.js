@@ -27,3 +27,13 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => typeWriter(paragraphElement, paragraphText, 30), headingText.length * 100);
   });
   
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, function(error) {
+        console.log('ServiceWorker registration failed: ', error);
+      });
+    });
+  }
